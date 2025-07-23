@@ -5,50 +5,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Coding Profiles</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f9fc;
-            color: #333;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        h1 {
-            color: #2c3e50;
-        }
-
-        .profile-links {
-            margin-top: 2rem;
-        }
-
-        .profile-links a {
-            display: block;
-            margin: 1rem auto;
-            width: 250px;
-            padding: 1rem;
-            text-decoration: none;
-            background-color: #3498db;
-            color: white;
-            border-radius: 10px;
-            transition: 0.3s;
-        }
-
-        .profile-links a:hover {
-            background-color: #2980b9;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <h1>My Coding Profiles</h1>
-    <p>Welcome! Here are my competitive programming and development profiles:</p>
-    <div class="profile-links">
-        <a href="https://leetcode.com/YOUR_USERNAME" target="_blank">LeetCode</a>
-        <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a>
-        <a href="https://www.codeforces.com/profile/YOUR_USERNAME" target="_blank">Codeforces</a>
-        <a href="https://www.hackerrank.com/YOUR_USERNAME" target="_blank">HackerRank</a>
-        <!-- Add more links if needed -->
+<body
+    class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen flex items-center justify-center px-4">
+    <div class="max-w-3xl w-full text-center">
+        <h1
+            class="text-4xl sm:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
+            Hi, I'm Christopher Cyrus
+        </h1>
+        <p class="text-lg sm:text-xl text-gray-300 mb-10">
+            Here are my competitive programming and development profiles. Let's code and grow!
+        </p>
+        <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
+            <a href="https://leetcode.com/YOUR_USERNAME" target="_blank"
+                class="group bg-gray-800 hover:bg-purple-600 p-6 rounded-2xl transition-transform transform hover:-translate-y-1 shadow-lg">
+                <img src="https://leetcode.com/favicon.ico" class="w-8 h-8 mx-auto mb-2" />
+                <p class="text-lg font-semibold group-hover:text-white">LeetCode</p>
+            </a>
+            <a href="https://github.com/YOUR_USERNAME" target="_blank"
+                class="group bg-gray-800 hover:bg-gray-700 p-6 rounded-2xl transition-transform transform hover:-translate-y-1 shadow-lg">
+                <img src="https://github.githubassets.com/favicons/favicon-dark.png" class="w-8 h-8 mx-auto mb-2" />
+                <p class="text-lg font-semibold group-hover:text-white">GitHub</p>
+            </a>
+            <a href="https://codeforces.com/profile/YOUR_USERNAME" target="_blank"
+                class="group bg-gray-800 hover:bg-blue-600 p-6 rounded-2xl transition-transform transform hover:-translate-y-1 shadow-lg">
+                <img src="https://codeforces.org/s/84855/images/favicon.ico" class="w-8 h-8 mx-auto mb-2" />
+                <p class="text-lg font-semibold group-hover:text-white">Codeforces</p>
+            </a>
+            <a href="https://hackerrank.com/YOUR_USERNAME" target="_blank"
+                class="group bg-gray-800 hover:bg-green-600 p-6 rounded-2xl transition-transform transform hover:-translate-y-1 shadow-lg">
+                <img src="https://hrcdn.net/fcore/assets/favicon-ddc852f75a.ico" class="w-8 h-8 mx-auto mb-2" />
+                <p class="text-lg font-semibold group-hover:text-white">HackerRank</p>
+            </a>
+            <a href="https://atcoder.jp/users/YOUR_USERNAME" target="_blank"
+                class="group bg-gray-800 hover:bg-indigo-600 p-6 rounded-2xl transition-transform transform hover:-translate-y-1 shadow-lg">
+                <img src="https://atcoder.jp/favicon.ico" class="w-8 h-8 mx-auto mb-2" />
+                <p class="text-lg font-semibold group-hover:text-white">AtCoder</p>
+            </a>
+            <a href="mailto:you@example.com"
+                class="group bg-gray-800 hover:bg-red-600 p-6 rounded-2xl transition-transform transform hover:-translate-y-1 shadow-lg">
+                <svg class="w-8 h-8 mx-auto mb-2 text-white" fill="none" stroke="currentColor" stroke-width="1.5"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21.75 7.5v9a2.25 2.25 0 01-2.25 2.25H4.5A2.25 2.25 0 012.25 16.5v-9A2.25 2.25 0 014.5 5.25h15a2.25 2.25 0 012.25 2.25zM3 7.5l9 6 9-6" />
+                </svg>
+                <p class="text-lg font-semibold group-hover:text-white">Email Me</p>
+            </a>
+        </div>
+        <footer class="mt-12 text-sm text-gray-500">
+            © 2025 Christopher Cyrus | Built with ❤️ using Tailwind CSS
+        </footer>
     </div>
 </body>
 
